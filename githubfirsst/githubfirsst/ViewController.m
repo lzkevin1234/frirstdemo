@@ -19,6 +19,8 @@
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
     view.backgroundColor = [UIColor redColor];
     view.center = self.view.center;
+    [self.view addSubview:view];
+
     NSLog(@"1233");
     
 }
