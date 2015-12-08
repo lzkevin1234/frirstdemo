@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    view.backgroundColor = [UIColor redColor];
+    view.center = self.view.center;
+    
 }
 
 - (void)didReceiveMemoryWarning {
